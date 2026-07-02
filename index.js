@@ -1,0 +1,9 @@
+const box = document.getElementById("box");
+box.innerHTML = "div";
+box.style.width = "100px";
+box.style.height = "100px";
+box.style.border = "1px solid black";
+box.style.display = "flex";
+box.style.justifyContent = "center";
+box.style.alignItems = "center";
+box.style.color = "red";
