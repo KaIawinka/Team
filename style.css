@@ -59,9 +59,14 @@ footer nav ul li {
 	list-style: none;
 	margin-top: 5px;
 	letter-spacing: 3%;
+	transition: 0.3s;
 }
 
 footer img {
 	width: 80px;
 	height: 80px;
+}
+
+footer nav ul li:hover {
+	transform: scale(1.1);
 }
